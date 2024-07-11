@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color: peru;
+        }
+        /* hover means mouse over */
+        h3:hover{
+            color: tomato;
+            background-color: skyblue;
+        }
+        input:focus{
+            color: blue;
+            /* padding-left: 20px; */
+            outline: 0;
+            border: 1px solid purple;
+        }
+        a:visited{
+            color: rgb(108, 108, 108);
+        }
+        /* li:last-child{
+            color: red;
+        } */
+         /* li:first-child{
+            color: aqua;
+         } */
+          li:nth-child(3n+1){
+            color: purple;
+          }
+    </style>
+</head>
+<body>
+    <h3>My Heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.bbc.com/news/world-africa-13861843">mada</a>
+
+
+    <ul>
+        <li>ronaldo</li>
+        <li>neymatr</li>
+        <li>mess</li>
+        <li>silva</li>
+        <li>vini</li>
+        <li>rodrygo</li>
+        <li>kaka</li>
+    </ul>
+</body>
+</html>
